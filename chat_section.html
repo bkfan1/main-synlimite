@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-desk-nl dp-flex flex-dir-col justify-cnt-se align-items-center width-100per">
+       
+        <ul class="dp-flex align-items-center justify-cnt-se width-100per pad-left-15px pad-right-15px pad-top-5px bg-color-mainblue">
+            <ul class="dp-flex align-items-center">
+                <li><a href=""><img src="assets/img/synlimite-logo.png" class="header-logo" alt=""></a></li>
+                <li><a href="" class="mar-left-20px mar-right-20px color-white">Categorías</a></li>
+            </ul>
+
+            <ul class="dp-flex justify-cnt-center align-items-center">
+                <form action="" class="search-form">
+                    <input type="search" name="" id="" class="nav-search-input border-radius-rounded bg-color-white" placeholder="¿Qué estás buscando?">
+                    <button class="search-input-btn border-radius-rounded">
+                        <i class="bi bi-search search-input-icon"></i>
+                    </button>
+                </form>
+            </ul>
+
+            <ul class="dp-flex justify-cnt-center align-items-center">
+
+                <li class="pad-right-20px">
+                    <a href="">
+                        <span class="color-yellow mar-right-5px">0</span>
+                        <i class="bi bi-cart3 color-white"></i></a>
+                </li>
+
+                <li class="pad-right-20px">
+                    <div class="dp-flex align-items-center">
+                        <a href="" class="font-weight-bold color-gold">9.999</a>
+                        <img src="assets/img/moneda.png" class="coin-img mar-left-5px" alt="">
+                    </div>
+                </li>
+
+               <li class="user-nav-menu dp-flex justify-cnt-center align-items-center">
+                   <a href="" class="color-white">John
+                       <i class="bi bi-person-circle mar-left-5px"></i>
+                       <i class="bi bi-chevron-down mar-left-5px"></i>
+                    </a>
+                    <ul class="submenu bg-color-mainblue">
+                        <li class="submenu-item"><a href=""><i class="bi bi-person-circle"></i> Mi cuenta</a></li>
+                        <li class="submenu-item"><a href=""><i class="bi bi-cart3 color-white"></i>Compras</a><li>
+                        <li class="submenu-item"><a href=""><i class="bi bi-truck"></i> Envíos</a></li>
+                        <li class="submenu-item"><a><i class="bi bi-receipt"></i> Facturas</a></li>
+                        <li class="submenu-item"><a href=""><i class="bi bi-heart"></i> Favoritos</a></li>
+                        <li class="submenu-item"><a href=""><i class="bi bi-gear"></i> Ajustes</a></li>
+                        <li class="submenu-item"><a href=""><i class="bi bi-box-arrow-right"></i> Cerrar sesión</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+
+        <ul class="dp-flex justify-cnt-se width-100per bg-color-secondblue pad-top-5px pad-bottom-5px">
+            <li><a href="" class="color-white mar-left-20px mar-right-20px">Productos</a></li>
+            <li class="user-nav-menu">
+                <a href="" class="color-white mar-left-20px mar-right-20px">Comprar</a>
+                <ul class="submenu bg-color-secondblue">
+                    <li class="submenu-item"><a href=""><i class="bi bi-basket3"></i> Por peso</a></li>
+                    <li class="submenu-item"><a href=""><i class="bi bi-stack"></i> Al mayor</a></li>
+                    <li class="submenu-item"><a href=""><i class="bi bi-tag"></i> Por categorías</a></li>
+                    <li class="submenu-item"><a href=""><i class="bi bi-person-lines-fill"></i> Conseguir un proveedor</a></li>
+                </ul>
+            </li>
+            <li><a href="" class="color-white mar-left-20px mar-right-20px">Ofertas</a></li>
+            <li class="user-nav-menu">
+                <a href="" class="color-white mar-left-20px mar-right-20px">Vender</a>
+                <ul class="submenu bg-color-secondblue">
+                    <li class="submenu-item"><a href=""><i class="bi bi-basket3"></i> Por peso</a></li>
+                    <li class="submenu-item"><a href=""><i class="bi bi-stack"></i>Al mayor</a><li>
+                </ul>   
+            </li>
+            <li><a href="" class="color-white mar-left-20px mar-right-20px">Ayuda</a></li>
+        </ul>
+
+    </nav>
+
+    <main class="dp-flex"> 
+
+        <aside class="chat__panel dp-flex flex-dir-col">
+            <header class="chat__panel-header dp-flex flex-dir-col justify-cnt-center align-items-center pad-15px text-align-center">                
+                <div class="dp-flex align-items-center justify-cnt-center">
+                    <i class="bi bi-mailbox2 font-size-24px"></i>
+                    <h2 class=" mar-left-10px">Bandeja de entrada</h2>
+                </div>
+            </header>
+
+            <div class="pad-5px">
+                <form action="">
+                    <input type="text" class="chat__input-search border-radius-rounded pad-5px text-align-center" placeholder="Buscar persona, empresa...">
+                </form>
+            </div>
+
+            <!--Estado visto-->
+            <div class="chat__conversation dp-flex align-items-center pad-5px">
+                <a href=""><img src="assets/img/jane.png" class="chat__remittent-img" alt=""></a>
+                <div class="chat__remittent-info dp-flex flex-dir-col pad-left-5px">
+                    <a href=""><span class="chat__remittent-name">Jane Doe</span></a>
+                    <p class="chat__remittent-message">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+
+            <!--Estado sin leer-->
+            <div class="chat__conversation --unseen dp-flex align-items-center pad-5px">
+                <a href=""><img src="assets/img/jonathan.png" class="chat__remittent-img" alt=""></a>
+                <div class="chat__remittent-info dp-flex flex-dir-col pad-left-5px">
+                    <a href=""><span class="chat__remittent-name font-weight-bold">Jonathan Doe</span></a>
+                    <p class="chat__remittent-message">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+
+        </aside>
+
+        <section class="chat__chat-area dp-flex flex-dir-col">
+            <header class="chat__conversation-header  dp-flex flex-dir-col justify-cnt-center align-items-center width-100per pad-10px">
+
+                <ul class="chat__option-menu dp-flex">
+                    <li><button class="chat__action-btn"><i class="bi bi-flag font-size-20px" title="Reportar usuario"></i></button></li>
+                    <li><button class="chat__action-btn mar-left-5px mar-right-5px" title="Archivar chat"><i class="bi bi-archive font-size-20px"></i></button></li>
+                    <li><button class="chat__action-btn"><i class="bi bi-trash font-size-20px" title="Eliminar chat"></i></button></li>
+                </ul>
+
+                <a href=""><img src="assets/img/jane.png" alt="" class="chat__remittent-img"></a>
+                <a href="">Jane Doe</a>
+
+                <!--Agregar dinámicamente la ubicación y el trabajo/negocio del usuario-->
+                <ul class="chat__remittent-info-list dp-flex flex-dir-col justify-cnt-center align-items-center">
+                    <li class="chat__remittent-info2"><a href=""><i class="bi bi-geo-alt-fill"></i> Barinas, Venezuela</a></li>
+                    <li class="chat__remittent-info2"><a href=""><i class="bi bi-shop"></i> Synlimite.com</a></li>
+                </ul>
+
+            </header>
+
+            <div class="chat__chat-container dp-flex flex-dir-col pad-20px">
+                <div class="chat__receiver-message-container dp-flex align-items-center pad-10px">
+                    <a href=""><img src="assets/img/jane.png" class="chat__remittent-img" alt=""></a>
+                    <p class="chat__receiver-message-text pad-10px mar-left-10px border-radius-rounded">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt rem.
+                    </p>
+                </div>
+
+                <div class="chat__remittent-message-container pad-10px">
+                    <p class="chat__remittent-message-text dp-flex pad-10px border-radius-rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, deleniti.</p>
+                </div>
+
+                <div class="chat__receiver-message-container dp-flex align-items-center pad-10px">
+                    <a href=""><img src="assets/img/jane.png" class="chat__remittent-img" alt=""></a>
+                    <p class="chat__receiver-message-text pad-10px mar-left-10px border-radius-rounded">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt rem.
+                    </p>
+                </div>
+
+                <div class="chat__remittent-message-container pad-10px">
+                    <p class="chat__remittent-message-text dp-flex pad-10px border-radius-rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, deleniti.</p>
+                </div>
+
+                <div class="chat__receiver-message-container dp-flex align-items-center pad-10px">
+                    <a href=""><img src="assets/img/jane.png" class="chat__remittent-img" alt=""></a>
+                    <p class="chat__receiver-message-text pad-10px mar-left-10px border-radius-rounded">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt rem.
+                    </p>
+                </div>
+
+                <div class="chat__remittent-message-container pad-10px">
+                    <p class="chat__remittent-message-text dp-flex pad-10px border-radius-rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, deleniti.</p>
+                </div>
+                
+
+            </div>
+
+            <div class="width-100per pad-left-20px pad-right-20px">
+                <form action="" class="chat__message-form">
+                    <!--Este text area debe ser autoincrementar sus filas (rows) cuando el usuario exceda
+                    los X caracteres (x = num a determinar por los devs)-->
+                    <input type="search" name="" id="" placeholder="Escribe un mensaje..." class="message-textarea border-radius-rounded">
+                </form>
+            </div>
+
+            <div class="width-100per pad-10px">
+
+                <div class="chat__action-btn-container dp-flex mar-left-10px">
+                    <!--Este botón debe activar el filesystem para poder subir una imágen desde el dispositivo-->
+                    <button><i class="bi bi-image chat__action-btn font-size-24px"></i></button>
+
+                    <!--Este botón debe pedir permisos para activar el micrófono y poder enviar una nota de voz
+                    (queda pendiente agregar una vista previa de la imagen al chatbox)-->
+                    <button><i class="bi bi-mic chat__action-btn font-size-24px"></i></button>
+
+                    <!--Este botoón debe pedir permisos para activar la cámara y poder tomar fotos
+                    (queda pendiente agregar una vista previa de la foto al chat box)-->
+                    <button><i class="bi bi-camera chat__action-btn font-size-24px"></i></button>
+
+                    <button><i class="bi bi-emoji-smile chat__action-btn font-size-24px"></i></button>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+    
+
+    <footer class="footer dp-flex justify-cnt-sb bg-color-white">
+        <ul>
+            <li class="font-size-16px mar-bottom-5px font-weight-bold color-dedeegray">Synlimite Ecommerce, C.A</li>
+            <li class="font-size-14px">2021 - 20XX</li>
+            <li class="font-size-14px mar-top-5px"><i class="bi bi-geo-alt font-size-14px"></i> Barinas - Venezuela</li>
+
+            <li class="mar-top-10px">
+                <ul class="dp-flex">
+                    <li class="mar-right-10px"><a href=""><i class="bi bi-facebook"></i></a></li>
+                    <li class="mar-right-10px"><a href=""><i class="bi bi-instagram"></i></a></li>
+                    <li class="mar-right-10px"><a href=""><i class="bi bi-twitter"></i></a></li>
+                    <li class="mar-right-10px"><a href=""><i class="bi bi-github"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="">
+            <li class="mar-bottom-5px font-size-16px font-weight-bold">Legalidad</li>
+            <li class="mar-bottom-5px"><a href="">Términos y condiciones</a></li>
+            <li class="mar-bottom-5px"><a href="">Política de Privacidad</a></li>
+            <li class="mar-bottom-5px"><a href="">Soporte al cliente</a></li>
+            <li class="mar-bottom-5px"><a href="">Política de reembolsos</a></li>
+        </ul>
+
+        <ul class="">
+            <li class="mar-bottom-5px font-size-16px font-weight-bold">Acerca de la empresa</li>
+            <li class="mar-bottom-5px"><a href="">¿Qué es Synlimite?</a></li>
+            <li class="mar-bottom-5px"><a href="">El equipo</a></li>
+            <li class="mar-bottom-5px"><a href="">Comunidad</a></li>
+            <li class="mar-bottom-5px"><a href="">Nuestra misión y objetivos</a></li>
+            <li class="mar-bottom-5px"><a href="">Trabaja con Synlimite</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
