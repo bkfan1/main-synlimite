@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refund 3</title>
+    <title>Help section</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body class="bg-color-maingray">
 
@@ -102,144 +103,32 @@
 
     </nav>
 
-    <main class="dp-flex width-100per">
+    <main class="dp-flex flex-dir-col">
+        <section class="help-section min-height-100vh pad-50px bg-color-white">
+            <h1 class="font-size-26px">Preguntas frecuentes:</h1>
+            <ul class="help-faq-list mar-top-15px">
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cuáles son sus políticas de compra?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cúales son sus Políticas de ventas?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cúales son sus Políticas de envíos?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cómo utilizo las subastas?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cuantos días tardará en llegar mi producto?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cómo sé si mi producto llegó a su destino?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Qué debo hacer en caso de qué mi producto no llegue a su destino?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cúales son los niveles de seguirdad de la plataforma?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Cómo sé a quién le estoy comprando?</a></li>
+                <li class="mar-bottom-10px"><a href="" class="color-skyblue">¿Para qué sirven/cómo funcionan las facturas?</a></li>
+            </ul>
 
-        <aside class="panel dp-flex flex-dir-col flex-wrap-true sidebar-width min-height-100vh  bg-color-white">
-        
-            <!--START OF PANEL HEADER-->
-    
-    
-            <div class="panel-header dp-flex flex-dir-col justify-cnt-center width-100per">
-    
-                <div class="user-img-container dp-flex flex-dir-col align-items-center justify-cnt-center width-100per pad-top-20px">
-                    <h4 class="user-role font-size-18px color-black mar-bottom-15px align-self-center">Mi cuenta</h4>
-                    <img class="user-pfp" src="assets/img/person.jpg" alt="">
-                </div>
-    
-                <div class="user-data-container dp-flex flex-dir-col align-items-center justify-cnt-center width-100per pad-top-10px pad-bottom-10px">
-                    <a href=""><h3 class="user-name align-self-center color-black">John Doe</h3></a>
-                    <span class="user-email align-self-center color-black pad-5px font-size-16px ">john@doe.com</span>
-                </div>
-            </div>
-            <!--END OF PANEL HEADER-->
-    
-            <!--START OF PANEL BODY-->
-    
-            <div class="panel-body width-100per">
-                <div class="panel-section-title width-100per pad-top-10px border-top-gray ">
-                    <h5 class="panel-section-title pad-left-15px font-size-14px color-black">PRINCIPAL</h5>
-                </div>
-        
-                <div class="panel-section width-100per dp-flex flex-dir-col align-items-center justify-cnt-sb pad-bottom-15px ">
-        
-                    <div class="panel-item-container dp-flex flex-dir-col align-items-center pad-left-15px pad-top-15px pad-bottom-5px width-100per">
-        
-                        <!--Estos elementos fungen cómo menú desplegable , se le debe
-                        agregar la funcionalidad de desplegar y ocultar sus subsecciones,
-                    es decir: el div con la lista (menu tipo acordeón) 👇-->
-                        <div class="panel-item-link-container justify-cnt-sb mar-left-10px width-100per">
-                            
-                            <a href="" class="color-black panel-link font-size-18px "><i class="bi bi-handbag panel-icon color-black pad-right-5px"></i>Compras</a>
-    
-                            <!--Esta flecha debe mostrarse únicamente cuando hagan hover sobre
-                            el elemento, ocultarla con JS (puede ser "toggleando" la propiedad
-                            CSS: visibility al elemento). 👇-->
-                            <i class="bi bi-chevron-down cursor-pointer"></i>
-                        </div>
-    
-                        <div class="dp-flex width-100per pad-top-10px">
-                            <ul class="mar-left-20px">
-                                <li class="pad-bottom-5px"><a href="">Mis compras</a></li>
-                                <li class="pad-bottom-5px"><a href="">Devoluciones</a></li>
-                                <li class="pad-bottom-5px"><a href="">Solicitar devolución</a></li>
-                            </ul>
-                        </div>
-    
-        
-                    </div>
-    
-                    <div class="panel-item-container dp-flex flex-dir-col align-items-center pad-left-15px pad-top-15px pad-bottom-5px width-100per">
-        
-                        <div class="panel-item-link-container justify-cnt-sb mar-left-10px width-100per">
-                            <a href="" class="color-black panel-link font-size-18px "><i class="bi bi-cart-check panel-icon pad-right-5px"></i>Ventas</a>
-    
-                            <i class="bi bi-chevron-down cursor-pointer"></i>
-    
-                        </div>
-    
-                        <div class="dp-flex width-100per pad-top-10px">
-                            <ul class="mar-left-20px">
-                                <li class="pad-bottom-5px"><a href="">Resumen</a></li>
-                                <li class="pad-bottom-5px pad-top-5px"><a href="">Publicaciones</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-        
-                    <div class="panel-section-title width-100per mar-top-10px pad-top-10px pad-bottom-10px border-top-gray">
-                        <h5 class="panel-section-title pad-left-15px font-size-14px color-black">OPCIONES</h5>
-                    </div>
-    
-                    <div class="panel-item-container dp-flex flex-dir-row align-items-center pad-left-15px pad-top-15px pad-bottom-15px width-100per">
-        
-                        <div class="panel-item-icon-container">
-                            <i class="bi bi-gear color-black"></i>                
-                        </div>
-        
-                        <div class="panel-item-link-container mar-left-10px">
-                            <a href="" class="color-black panel-link font-size-18px ">Ajustes de cuenta</a>
-                        </div>
-                    </div>
-            </div>
-    
-        </aside>
-
-        <section class="dp-flex flex-dir-col width-100per align-items-center pad-20px">
-            <div class="dp-flex flex-dir-col mar-bottom-10px">
-                <h1 class="font-size-24px">Solicitar una devolución </h1>
-            </div>
-
-            <form action="" class="refund-form  bg-color-white pad-20px border-radius-rounded border2">
-
-                <div class="dp-flex flex-dir-col">
-
-                    <div class="dp-flex flex-dir-col pad-top-5px pad-bottom-5px">
-
-                        <label for="" class="font-size-18px font-weight-bold pad-bottom-5px">Paso 3: Datos de contacto</label>
-                        <label for="" class="pad-top-5px pad-bottom-10px">
-                            Rellena los campos solicitados con tus datos para poder contactarte y procesar
-                            la devolución
-                        </label>
-                        <label for="" class="mar-bottom-5px">E-mail </label>
-                        <input type="email" name="" id="" placeholder="john@doe.com" class="input-form border-radius-rounded">
-    
-                        <label for="" class="mar-top-10px mar-bottom-5px">Número de teléfono</label>
-                        <input type="tel" name="" id="" placeholder="+584245329012" class="input-form border-radius-rounded">
-    
-                    </div>
-
-                    <div class="dp-flex flex-dir-col">
-                        <label for="" class="mar-top-10px mar-bottom-5px">Dirección</label>
-                        <input type="text" name="" id="" placeholder="Av Sucre, cruce con Calle Mérida, Barinas - Venezuela" class="input-form border-radius-rounded">
-                    </div>
-                </div>
-                
-
-                <div class="width-100per dp-flex justify-cnt-sb pad-top-15px">
-
-                    <button type="submit" class="cursor-pointer pad-10px border-radius-rounded">Cancelar</button>
-
-                    <button type="submit" class="cursor-pointer bg-color-skyblue2 color-white pad-10px border-radius-rounded">Continuar</button>
-                </div>
-
-            </form>
-
-            
-
+            <h2 class="font-size-24px mar-top-20px">¿Necesitas más ayuda?</h2>
+            <h3 class="font-size-18px mar-top-10px">Contacta al soporte técnico:</h3>
+            <ul class="mar-top-10px">
+                <li class="mar-bottom-5px"><i class="bi bi-headset"></i> +5800000</li>
+                <li><i class="bi bi-envelope"></i> synlimite@support.com</li>
+                <li></li>
+            </ul>
 
         </section>
 
-        
     </main>
 
     <footer class="footer dp-flex justify-cnt-sb bg-color-white">

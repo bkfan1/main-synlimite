@@ -53,6 +53,11 @@ con todas las opciones de criptomonedas disponibles en la plataforma.
 - Se agregaron nuevas clases en los archivos de estilos (styles.css y styles.scss).
 - Se agregaron nuevos assets a la carpeta assets (archivos jane.png y jonathan.png).
 
+## 2.0.7
+- Se agregó un submenú al item del segundo menu de navegación, con los subitems (Black Friday, Descuentos, Por temporada, Regalos por compra) y se actualizó en cada vista que incluye al menú de navegación.
+- Se agregaron dos vistas nuevas (help_section_nl.html & help_section_lg.html).
+- Se agregaron más opciones ("BNB" y "AXS") a la etiqueta select en la vista pos_product_1.html.
+- Se agregaron los íconos de las monedas AXS y BNB en la vista home_nl.html.
 
 
 
