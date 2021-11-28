@@ -400,7 +400,7 @@ a {
 }
 
 .purchase-filter {
-  width: 124px;
+  width: 150px;
 }
 
 .refund-form {
@@ -679,7 +679,6 @@ a {
 
 .chat__chat-area {
   width: 100%;
-  justify-content: space-between;
 }
 .chat__chat-area .chat__conversation-header {
   position: relative;
@@ -709,7 +708,7 @@ a {
 
 .chat__chat-container {
   width: 100%;
-  height: fit-content;
+  max-height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -1020,7 +1019,7 @@ a {
 
 /*--------------------------------- */
 .sidebar-width {
-  width: 250px;
+  width: 280px;
 }
 
 .width-100per {
